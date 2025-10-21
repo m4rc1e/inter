@@ -47,7 +47,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v3
         with:
-          python-version: '3.x'
+          python-version: '3.11'
 
       - name: Install utilities
         run: sudo apt-get install -y zip
