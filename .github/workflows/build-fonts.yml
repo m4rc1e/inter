@@ -29,6 +29,7 @@ on:
       - version.txt
       - misc/makezip2.sh
       - "misc/tools/**"
+      - ".github/workflows/build-fonts.yml"
   workflow_dispatch:
 
 defaults:
